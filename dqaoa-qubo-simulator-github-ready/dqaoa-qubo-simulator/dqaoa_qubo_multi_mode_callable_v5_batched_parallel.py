@@ -4112,9 +4112,6 @@ def plot_mode_comparison(results, save_path=None):
         plt.show()
 
 
-
-import matplotlib.pyplot as plt
-
 def plot_training_trace(result, save_path=None):
     history = result.get("details", {}).get("history")
     if not history:
