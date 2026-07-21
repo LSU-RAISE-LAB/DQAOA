@@ -4048,6 +4048,8 @@ def plot_top_k_elite_bitstrings(
     return fig, ax
 
 
+require_matplotlib()
+
 
 def plot_depth_progression(result, save_path=None):
     depth_summaries = result.get("details", {}).get("depth_summaries")
@@ -4080,6 +4082,7 @@ def plot_depth_progression(result, save_path=None):
 
 
 
+require_matplotlib()
 
 def plot_mode_comparison(results, save_path=None):
     rows = [
@@ -4112,8 +4115,7 @@ def plot_mode_comparison(results, save_path=None):
         plt.show()
 
 
-
-import matplotlib.pyplot as plt
+require_matplotlib()
 
 def plot_training_trace(result, save_path=None):
     history = result.get("details", {}).get("history")
