@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.py text diff=python
+*.md text
+*.yml text
+*.yaml text
+*.toml text
+*.png binary
+*.pdf binary

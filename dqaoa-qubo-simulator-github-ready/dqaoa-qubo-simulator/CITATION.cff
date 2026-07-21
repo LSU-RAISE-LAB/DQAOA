@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the software release and the associated DQAOA-QUBO paper."
+title: "DQAOA-QUBO Simulator"
+type: software
+authors:
+  - family-names: Rajabi
+    given-names: Ali
+  - family-names: Hasanzadeh
+    given-names: Milad
+  - family-names: Kargarian
+    given-names: Amin
+version: 1.0.0
+date-released: 2026-07-20
+license: MIT
+repository-code: "https://github.com/LSU-RAISE-LAB/dqaoa-qubo-simulator"
+url: "https://sites.google.com/site/aminkargarian/home"
+keywords:
+  - QAOA
+  - distributed quantum computing
+  - QUBO
+  - Qiskit
+  - quantum optimization
+  - TeleGate

@@ -1,0 +1,75 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dqaoa-qubo-simulator"
+version = "1.0.0"
+description = "Qiskit-compatible multi-mode QUBO solver with monolithic and distributed QAOA execution modes."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Ali Rajabi"},
+  {name = "Milad Hasanzadeh"},
+  {name = "Amin Kargarian"},
+]
+keywords = [
+  "QAOA",
+  "distributed quantum computing",
+  "QUBO",
+  "Qiskit",
+  "quantum optimization",
+  "TeleGate",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering",
+]
+dependencies = [
+  "numpy>=1.26,<3",
+]
+
+[project.optional-dependencies]
+quantum = [
+  "qiskit==2.4.2",
+  "qiskit-aer==0.17.2",
+]
+plots = [
+  "matplotlib>=3.8,<4",
+  "pylatexenc>=2.10",
+]
+cplex = [
+  "docplex>=2.25",
+]
+full = [
+  "qiskit==2.4.2",
+  "qiskit-aer==0.17.2",
+  "matplotlib>=3.8,<4",
+  "pylatexenc>=2.10",
+  "docplex>=2.25",
+]
+dev = [
+  "pytest>=8",
+]
+
+[project.urls]
+Homepage = "https://sites.google.com/site/aminkargarian/home"
+Repository = "https://github.com/LSU-RAISE-LAB/dqaoa-qubo-simulator"
+Issues = "https://github.com/LSU-RAISE-LAB/dqaoa-qubo-simulator/issues"
+
+[tool.setuptools]
+py-modules = [
+  "dqaoa_qubo",
+  "dqaoa_qubo_multi_mode_callable_v5_batched_parallel",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

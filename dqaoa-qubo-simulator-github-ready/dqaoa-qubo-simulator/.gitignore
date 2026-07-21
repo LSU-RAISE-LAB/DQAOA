@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Test and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated solver outputs
+outputs/*
+!outputs/.gitkeep
+elite_topk_*.png
+depth_progression_*.png
+mode_comparison.png
+*_ansatz.png
+*_schematic.png
+*_transpiled.png
+*_style*.png
+*.qpy
+
+# Logs and local configuration
+*.log
+.env
+.env.*
+secrets.*
+
+# CPLEX local artifacts
+*.sav
+*.lp
+*.mps
+*.sol

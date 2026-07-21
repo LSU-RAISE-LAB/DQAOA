@@ -1,0 +1,6 @@
+# Full non-CPLEX environment used by the examples.
+numpy>=1.26,<3
+qiskit==2.4.2
+qiskit-aer==0.17.2
+matplotlib>=3.8,<4
+pylatexenc>=2.10

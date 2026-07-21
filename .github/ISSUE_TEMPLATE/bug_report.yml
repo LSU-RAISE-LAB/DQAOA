@@ -1,0 +1,46 @@
+name: Bug report
+description: Report reproducible incorrect behavior
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Include the smallest QUBO and configuration that reproduces the issue.
+      render: python
+    validations:
+      required: true
+  - type: input
+    id: python
+    attributes:
+      label: Python version
+    validations:
+      required: true
+  - type: input
+    id: qiskit
+    attributes:
+      label: Qiskit and Qiskit Aer versions
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Solver mode
+      options:
+        - bruteforce
+        - miqp_cplex
+        - monolithic_qaoa
+        - abstract_distributed_qaoa
+        - telegate_explicit_qaoa
+        - plotting/visualization
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error and logs
+      render: shell

@@ -1,0 +1,3 @@
+# Python modeling layer. A compatible IBM ILOG CPLEX runtime is also required
+# for the miqp_cplex mode to solve locally.
+docplex>=2.25
