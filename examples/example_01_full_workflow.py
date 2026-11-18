@@ -81,7 +81,7 @@ results = compare_qubo_modes(
         warm_start_sigma=0.10,
         add_plain_warm_start=True,
         keep_top_k_per_depth=1,
-        select_by_exact_when_available=True,
+        select_by_exact_when_available=False,
         parallel_restarts=4,
     ),
     compute_exact_if_small=True,
