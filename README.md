@@ -284,7 +284,7 @@ The GitHub Actions workflow runs these tests on Python 3.10, 3.11, and 3.12. Qua
 - CPLEX use depends on a separate installation and license.
 - Candidate selection can use exact references for small instances when enabled; disable this behavior for a strictly reference-free quantum selection study.
 - Runtime results depend strongly on hardware, simulator method, software versions, shots, depth, restarts, and QUBO structure.
-- This release contains the attached solver module and examples. A separate Streamlit GUI is not included unless its source files are added to the repository.
+- The Streamlit GUI is included in `gui/`; see [GUI instructions](gui/README.md).
 
 ## Troubleshooting
 
@@ -310,3 +310,26 @@ Released under the MIT License. Before publishing under an institutional organiz
 ## Publishing to GitHub
 
 A complete first-push walkthrough is in [`docs/PUBLISHING_TO_GITHUB.md`](docs/PUBLISHING_TO_GITHUB.md), and a final review list is in [`RELEASE_CHECKLIST.md`](RELEASE_CHECKLIST.md).
+
+## Graphical user interface
+
+The Streamlit GUI is available in [`gui/`](gui/README.md). It includes built-in
+6-, 12-, and 15-variable examples, editable QUBO input, background execution,
+and result visualization. From the repository root, after activating a Python
+environment, run:
+
+```bash
+cd gui
+python -m pip install -r requirements.txt
+python -m streamlit run app.py
+```
+
+The GUI bundles its own backend. Both its backend default and its job runner
+set `select_by_exact_when_available=False`. Optional classical references are
+used for comparison, not candidate ranking. This setting must also be False
+in any independently run example script. See `gui/README.md` for details.
+
+### Windows desktop launch
+
+In `gui/`, double-click **Install Requirements.cmd** once, then **Open App.cmd**.
+The app opens in your browser. See [quick-start instructions](gui/README.md).

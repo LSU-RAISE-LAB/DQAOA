@@ -1,0 +1,16 @@
+DQAOA - Windows quick start
+
+1. Extract the entire ZIP first. Do not run from inside the ZIP.
+2. Double-click Install Requirements.cmd and wait for Installation complete.
+3. Double-click Open App.cmd. The interface opens in your default browser.
+
+Next time, only double-click Open App.cmd.
+Keep its small launcher window open while using the app.
+Use Stop current run in the GUI before exiting during a computation.
+To stop the server, press Ctrl+C in the launcher window.
+
+Do not double-click app.py; it is source code.
+Internet is required for first-time installation.
+Python 3.12 is installed through Windows Package Manager if missing.
+If Windows Package Manager is unavailable, setup opens the Python download page.
+CPLEX is optional and is not installed by this setup.

@@ -6,3 +6,4 @@
 *.toml text
 *.png binary
 *.pdf binary
+*.cmd text eol=crlf
