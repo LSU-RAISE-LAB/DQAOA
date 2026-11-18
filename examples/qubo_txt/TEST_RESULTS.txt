@@ -1,0 +1,7 @@
+Functional checks of 8 configurations, using both monolithic and explicit distributed QAOA.
+16 quantum runs completed.
+16 of 16 runs matched the enumerated classical minimum cost.
+31 configurations have not been run in quantum modes.
+Single seed per case (7); no statistical success-rate or timing claim.
+Classical references were calculated after quantum execution and never supplied to candidate selection.
+See tested_results/summary.txt, per-case results, and environment.txt for details.

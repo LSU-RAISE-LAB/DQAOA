@@ -1,0 +1,118 @@
+{
+  "case": "n05_sparse",
+  "settings": {
+    "name": "n05_sparse",
+    "instance": "n05_sparse",
+    "n": 5,
+    "generator_seed": 20261619,
+    "c0": 0.25,
+    "p_max": 2,
+    "shots_train": 256,
+    "final_shots": 1024,
+    "avg_k": 1,
+    "seed": 7,
+    "seed_trans": 1234,
+    "adam_iters": 6,
+    "adam_lr": 0.08,
+    "fd_eps0": 0.12,
+    "adam_beta1": 0.9,
+    "adam_beta2": 0.999,
+    "adam_eps": 1e-08,
+    "spsa_alpha": 0.602,
+    "spsa_gamma": 0.101,
+    "spsa_A": 0.0,
+    "eval_at_each_iter": true,
+    "num_random_starts": 2,
+    "warm_start_perturbations": 1,
+    "warm_start_sigma": 0.1,
+    "add_plain_warm_start": true,
+    "keep_top_k_per_depth": 3,
+    "parallel_restarts": 1,
+    "select_by_exact_when_available": false,
+    "compute_exact_if_small": false,
+    "exact_threshold_n": 16,
+    "optimization_level": 1,
+    "batch_evaluations": true,
+    "sim_method": "matrix_product_state",
+    "num_qpus": 2,
+    "capacities": [
+      3,
+      2
+    ],
+    "manual_assignment": [
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "elite_top_k": 10,
+    "store_history": false,
+    "store_final_counts": false,
+    "modes": [
+      "monolithic_qaoa",
+      "telegate_explicit_qaoa"
+    ]
+  },
+  "wall_seconds_both_modes": 42.83691377699995,
+  "classical_reference": {
+    "best_cost": -1.9500000000000002,
+    "best_bitstring": "10001",
+    "number_of_minimizers": 1
+  },
+  "status": "done",
+  "results": [
+    {
+      "mode": "monolithic_qaoa",
+      "status": "finished",
+      "best_bitstring": "10001",
+      "best_cost": -1.95,
+      "p": 2,
+      "gammas": [
+        0.9592490628956927,
+        1.6182010516831549
+      ],
+      "betas": [
+        1.2963535938258086,
+        1.4740987966930998
+      ],
+      "angles": [
+        0.9592490628956927,
+        1.2963535938258086,
+        1.6182010516831549,
+        1.4740987966930998
+      ],
+      "runtime_to_solution_seconds": 0.7705758749999632,
+      "remote_cx_count": 0,
+      "cross_qpu_terms": 0,
+      "gap_to_classical_reference": 0.0,
+      "matches_reference_cost": true
+    },
+    {
+      "mode": "telegate_explicit_qaoa",
+      "status": "finished",
+      "best_bitstring": "10001",
+      "best_cost": -1.95,
+      "p": 2,
+      "gammas": [
+        0.9592979547751411,
+        1.6209621862092427
+      ],
+      "betas": [
+        1.2931349249279922,
+        1.4675720698561836
+      ],
+      "angles": [
+        0.9592979547751411,
+        1.2931349249279922,
+        1.6209621862092427,
+        1.4675720698561836
+      ],
+      "runtime_to_solution_seconds": 40.991494576000036,
+      "remote_cx_count": 8,
+      "cross_qpu_terms": 2,
+      "gap_to_classical_reference": 0.0,
+      "matches_reference_cost": true
+    }
+  ]
+}

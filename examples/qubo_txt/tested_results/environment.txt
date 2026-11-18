@@ -1,0 +1,26 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "os": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "processor": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "logical_cpus": 9,
+  "host_visible_memory_bytes": 10451423232,
+  "versions": {
+    "numpy": "2.3.5",
+    "qiskit": "2.6.2",
+    "qiskit-aer": "0.18.4",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8"
+  },
+  "backend_sha256": "bf6f36d475a43702ec6ea4521fbb098467169cef5fea0a87ce941350f7310b2b",
+  "job_runner_sha256": "4772a17fbd231b26492ba44d3962bb819540e4d26d347956b84bfa50588ff909",
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "parallel_restarts": 1,
+  "concurrent_cases": 1,
+  "timing": "One end-to-end subprocess measurement per case, including both modes and imports; no reference computation. Classical simulation only.",
+  "sampling_note": "Backend final samples participate in candidate selection; these are not independent held-out performance estimates."
+}
