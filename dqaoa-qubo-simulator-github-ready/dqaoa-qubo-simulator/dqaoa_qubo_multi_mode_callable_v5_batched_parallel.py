@@ -93,7 +93,7 @@ class MultiStartConfig:
     warm_start_sigma: float = 0.10
     add_plain_warm_start: bool = True
     keep_top_k_per_depth: int = 1
-    select_by_exact_when_available: bool = True
+    select_by_exact_when_available: bool = False
     parallel_restarts: int = 1
 
 
