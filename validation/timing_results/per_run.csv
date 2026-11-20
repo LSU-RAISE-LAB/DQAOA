@@ -1,0 +1,11 @@
+mode,repeat,wall_seconds,best_cost
+monolithic_qaoa,1,0.1866180799997892,-2.45
+telegate_explicit_qaoa,1,1.997088122000605,-2.45
+monolithic_qaoa,2,0.11954600199987908,-2.45
+telegate_explicit_qaoa,2,1.8432257770000433,-2.45
+monolithic_qaoa,3,0.11161682500005554,-2.45
+telegate_explicit_qaoa,3,1.9083758060005493,-2.45
+monolithic_qaoa,4,0.1255187169999772,-2.45
+telegate_explicit_qaoa,4,1.780580390999603,-2.45
+monolithic_qaoa,5,0.1325731460001407,-2.45
+telegate_explicit_qaoa,5,1.7479173570000057,-2.45

@@ -1,0 +1,29 @@
+{
+  "case": "n03_ring",
+  "p_max": 1,
+  "train_shots": 128,
+  "candidate_final_shots": 512,
+  "adam_iters": 6,
+  "restarts": 2,
+  "learning_rate": 0.08,
+  "seed": 7,
+  "seed_trans": 1234,
+  "parallel_workers": 1,
+  "thread_limits": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "cache": "cleared before every timed call",
+  "includes": "canonicalization, allocation, construction, transpilation, optimization, candidate sampling, selection, result construction",
+  "excludes": "Python imports, input loading, plotting, GUI, classical reference, independent holdout sampling",
+  "interpretation": "Current implementation only; does not isolate historical stage effects or establish quantum hardware runtime.",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "os": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "processor": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "logical_cpus": 9,
+  "host_visible_memory_bytes": 10451423232,
+  "numpy": "2.3.5",
+  "qiskit": "2.6.2",
+  "aer": "0.18.4"
+}

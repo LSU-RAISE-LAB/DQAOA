@@ -1,0 +1,70 @@
+{
+  "periods": [
+    {
+      "z": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "p": [
+        0.0,
+        0.0,
+        59.9999999999999,
+        0.0,
+        0.0
+      ],
+      "cost": 1654.3999999999976,
+      "balance_error": 9.947598300641403e-14,
+      "bound_violation": 0.0,
+      "demand": 60.0,
+      "feasible_patterns": 30
+    },
+    {
+      "z": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "p": [
+        0.0,
+        50.0,
+        0.0,
+        0.0,
+        80.00000000000007
+      ],
+      "cost": 3430.800000000002,
+      "balance_error": 5.684341886080802e-14,
+      "bound_violation": 0.0,
+      "demand": 130.0,
+      "feasible_patterns": 25
+    },
+    {
+      "z": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "p": [
+        0.0,
+        50.0,
+        60.0,
+        71.66666666666673,
+        98.33333333333347
+      ],
+      "cost": 7593.2500000000055,
+      "balance_error": 2.2737367544323206e-13,
+      "bound_violation": 0.0,
+      "demand": 280.0,
+      "feasible_patterns": 5
+    }
+  ],
+  "total_cost": 12678.450000000004,
+  "patterns_enumerated_per_period": 32,
+  "model_scope": "No intertemporal coupling; balance and generation bounds only."
+}

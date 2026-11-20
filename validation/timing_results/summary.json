@@ -1,0 +1,16 @@
+[
+  {
+    "mode": "monolithic_qaoa",
+    "repeats": 5,
+    "mean_seconds": 0.13517455399996833,
+    "sd_seconds": 0.0297727102910494,
+    "median_seconds": 0.1255187169999772
+  },
+  {
+    "mode": "telegate_explicit_qaoa",
+    "repeats": 5,
+    "mean_seconds": 1.8554374906001612,
+    "sd_seconds": 0.10022556691362468,
+    "median_seconds": 1.8432257770000433
+  }
+]
