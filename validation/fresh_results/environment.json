@@ -1,0 +1,16 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "numpy": "2.3.5",
+  "qiskit": "2.6.2",
+  "aer": "0.18.4",
+  "logical_cpus": 9,
+  "memory_bytes": 10451423232,
+  "backend_sha256": "bf6f36d475a43702ec6ea4521fbb098467169cef5fea0a87ce941350f7310b2b",
+  "thread_limits": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "parallel_restarts": 1
+}

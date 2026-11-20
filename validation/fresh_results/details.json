@@ -1,0 +1,1415 @@
+[
+  {
+    "case": "n03_ring",
+    "mode": "monolithic_qaoa",
+    "seed": 7,
+    "holdout_seed": 100007,
+    "selected_best_cost": -2.45,
+    "holdout_best_cost": -2.45,
+    "reference_cost": -2.45,
+    "holdout_mean_cost": -0.22944335937500002,
+    "holdout_optimal_probability": 0.17529296875,
+    "holdout_shots": 2048,
+    "gammas": [
+      2.1601492733366126
+    ],
+    "betas": [
+      0.222940141712296
+    ],
+    "assignment": [
+      0,
+      0,
+      0
+    ],
+    "training": {
+      "shots_train": 128,
+      "avg_k": 1,
+      "seed_trans": 1234,
+      "seed_base": 7,
+      "optimization_level": 1,
+      "sim_method": "matrix_product_state",
+      "batch_evaluations": true
+    },
+    "optimizer": {
+      "iters": 6,
+      "lr": 0.08,
+      "beta1": 0.9,
+      "beta2": 0.999,
+      "eps": 1e-08,
+      "fd_eps0": 0.12,
+      "seed": 7,
+      "spsa_alpha": 0.602,
+      "spsa_gamma": 0.101,
+      "spsa_A": 0.0,
+      "eval_at_each_iter": true
+    },
+    "multistart": {
+      "num_random_starts": 2,
+      "warm_start_perturbations": 1,
+      "warm_start_sigma": 0.1,
+      "add_plain_warm_start": true,
+      "keep_top_k_per_depth": 3,
+      "select_by_exact_when_available": false,
+      "parallel_restarts": 1
+    },
+    "p_max": 1,
+    "candidate_shots": 512,
+    "compute_exact_if_small": false,
+    "decoded_holdout_distribution": {
+      "010": 0.03076171875,
+      "000": 0.099609375,
+      "011": 0.17529296875,
+      "111": 0.01171875,
+      "110": 0.14013671875,
+      "001": 0.17626953125,
+      "101": 0.0947265625,
+      "100": 0.271484375
+    }
+  },
+  {
+    "case": "n03_ring",
+    "mode": "telegate_explicit_qaoa",
+    "seed": 7,
+    "holdout_seed": 100007,
+    "selected_best_cost": -2.45,
+    "holdout_best_cost": -2.45,
+    "reference_cost": -2.45,
+    "holdout_mean_cost": -0.14765625,
+    "holdout_optimal_probability": 0.14599609375,
+    "holdout_shots": 2048,
+    "gammas": [
+      1.83936220803944
+    ],
+    "betas": [
+      0.14217192638262255
+    ],
+    "assignment": [
+      0,
+      1,
+      0
+    ],
+    "training": {
+      "shots_train": 128,
+      "avg_k": 1,
+      "seed_trans": 1234,
+      "seed_base": 7,
+      "optimization_level": 1,
+      "sim_method": "matrix_product_state",
+      "batch_evaluations": true
+    },
+    "optimizer": {
+      "iters": 6,
+      "lr": 0.08,
+      "beta1": 0.9,
+      "beta2": 0.999,
+      "eps": 1e-08,
+      "fd_eps0": 0.12,
+      "seed": 7,
+      "spsa_alpha": 0.602,
+      "spsa_gamma": 0.101,
+      "spsa_A": 0.0,
+      "eval_at_each_iter": true
+    },
+    "multistart": {
+      "num_random_starts": 2,
+      "warm_start_perturbations": 1,
+      "warm_start_sigma": 0.1,
+      "add_plain_warm_start": true,
+      "keep_top_k_per_depth": 3,
+      "select_by_exact_when_available": false,
+      "parallel_restarts": 1
+    },
+    "p_max": 1,
+    "candidate_shots": 512,
+    "compute_exact_if_small": false,
+    "decoded_holdout_distribution": {
+      "110": 0.1611328125,
+      "101": 0.1181640625,
+      "001": 0.13623046875,
+      "011": 0.14599609375,
+      "100": 0.2158203125,
+      "111": 0.04296875,
+      "000": 0.1220703125,
+      "010": 0.0576171875
+    }
+  },
+  {
+    "case": "n03_ring",
+    "mode": "monolithic_qaoa",
+    "seed": 19,
+    "holdout_seed": 100019,
+    "selected_best_cost": -2.45,
+    "holdout_best_cost": -2.45,
+    "reference_cost": -2.45,
+    "holdout_mean_cost": -0.9436035156250001,
+    "holdout_optimal_probability": 0.314453125,
+    "holdout_shots": 2048,
+    "gammas": [
+      1.6028054422964697
+    ],
+    "betas": [
+      2.713375552539021
+    ],
+    "assignment": [
+      0,
+      0,
+      0
+    ],
+    "training": {
+      "shots_train": 128,
+      "avg_k": 1,
+      "seed_trans": 1234,
+      "seed_base": 19,
+      "optimization_level": 1,
+      "sim_method": "matrix_product_state",
+      "batch_evaluations": true
+    },
+    "optimizer": {
+      "iters": 6,
+      "lr": 0.08,
+      "beta1": 0.9,
+      "beta2": 0.999,
+      "eps": 1e-08,
+      "fd_eps0": 0.12,
+      "seed": 19,
+      "spsa_alpha": 0.602,
+      "spsa_gamma": 0.101,
+      "spsa_A": 0.0,
+      "eval_at_each_iter": true
+    },
+    "multistart": {
+      "num_random_starts": 2,
+      "warm_start_perturbations": 1,
+      "warm_start_sigma": 0.1,
+      "add_plain_warm_start": true,
+      "keep_top_k_per_depth": 3,
+      "select_by_exact_when_available": false,
+      "parallel_restarts": 1
+    },
+    "p_max": 1,
+    "candidate_shots": 512,
+    "compute_exact_if_small": false,
+    "decoded_holdout_distribution": {
+      "101": 0.0029296875,
+      "011": 0.314453125,
+      "000": 0.03173828125,
+      "010": 0.189453125,
+      "001": 0.10693359375,
+      "100": 0.05419921875,
+      "110": 0.0458984375,
+      "111": 0.25439453125
+    }
+  },
+  {
+    "case": "n03_ring",
+    "mode": "telegate_explicit_qaoa",
+    "seed": 19,
+    "holdout_seed": 100019,
+    "selected_best_cost": -2.45,
+    "holdout_best_cost": -2.45,
+    "reference_cost": -2.45,
+    "holdout_mean_cost": -0.9692871093750001,
+    "holdout_optimal_probability": 0.32763671875,
+    "holdout_shots": 2048,
+    "gammas": [
+      1.6019574762368287
+    ],
+    "betas": [
+      2.7143659285291966
+    ],
+    "assignment": [
+      0,
+      1,
+      0
+    ],
+    "training": {
+      "shots_train": 128,
+      "avg_k": 1,
+      "seed_trans": 1234,
+      "seed_base": 19,
+      "optimization_level": 1,
+      "sim_method": "matrix_product_state",
+      "batch_evaluations": true
+    },
+    "optimizer": {
+      "iters": 6,
+      "lr": 0.08,
+      "beta1": 0.9,
+      "beta2": 0.999,
+      "eps": 1e-08,
+      "fd_eps0": 0.12,
+      "seed": 19,
+      "spsa_alpha": 0.602,
+      "spsa_gamma": 0.101,
+      "spsa_A": 0.0,
+      "eval_at_each_iter": true
+    },
+    "multistart": {
+      "num_random_starts": 2,
+      "warm_start_perturbations": 1,
+      "warm_start_sigma": 0.1,
+      "add_plain_warm_start": true,
+      "keep_top_k_per_depth": 3,
+      "select_by_exact_when_available": false,
+      "parallel_restarts": 1
+    },
+    "p_max": 1,
+    "candidate_shots": 512,
+    "compute_exact_if_small": false,
+    "decoded_holdout_distribution": {
+      "001": 0.1083984375,
+      "110": 0.0458984375,
+      "100": 0.06005859375,
+      "111": 0.2509765625,
+      "011": 0.32763671875,
+      "010": 0.18017578125,
+      "000": 0.02490234375,
+      "101": 0.001953125
+    }
+  },
+  {
+    "case": "n03_ring",
+    "mode": "monolithic_qaoa",
+    "seed": 42,
+    "holdout_seed": 100042,
+    "selected_best_cost": -2.45,
+    "holdout_best_cost": -2.45,
+    "reference_cost": -2.45,
+    "holdout_mean_cost": -0.745556640625,
+    "holdout_optimal_probability": 0.37451171875,
+    "holdout_shots": 2048,
+    "gammas": [
+      2.2469587500727606
+    ],
+    "betas": [
+      1.9747233245143876
+    ],
+    "assignment": [
+      0,
+      0,
+      0
+    ],
+    "training": {
+      "shots_train": 128,
+      "avg_k": 1,
+      "seed_trans": 1234,
+      "seed_base": 42,
+      "optimization_level": 1,
+      "sim_method": "matrix_product_state",
+      "batch_evaluations": true
+    },
+    "optimizer": {
+      "iters": 6,
+      "lr": 0.08,
+      "beta1": 0.9,
+      "beta2": 0.999,
+      "eps": 1e-08,
+      "fd_eps0": 0.12,
+      "seed": 42,
+      "spsa_alpha": 0.602,
+      "spsa_gamma": 0.101,
+      "spsa_A": 0.0,
+      "eval_at_each_iter": true
+    },
+    "multistart": {
+      "num_random_starts": 2,
+      "warm_start_perturbations": 1,
+      "warm_start_sigma": 0.1,
+      "add_plain_warm_start": true,
+      "keep_top_k_per_depth": 3,
+      "select_by_exact_when_available": false,
+      "parallel_restarts": 1
+    },
+    "p_max": 1,
+    "candidate_shots": 512,
+    "compute_exact_if_small": false,
+    "decoded_holdout_distribution": {
+      "101": 0.0205078125,
+      "000": 0.0009765625,
+      "010": 0.0517578125,
+      "011": 0.37451171875,
+      "001": 0.07421875,
+      "100": 0.17041015625,
+      "111": 0.0732421875,
+      "110": 0.234375
+    }
+  },
+  {
+    "case": "n03_ring",
+    "mode": "telegate_explicit_qaoa",
+    "seed": 42,
+    "holdout_seed": 100042,
+    "selected_best_cost": -2.45,
+    "holdout_best_cost": -2.45,
+    "reference_cost": -2.45,
+    "holdout_mean_cost": -0.6822265625000001,
+    "holdout_optimal_probability": 0.32666015625,
+    "holdout_shots": 2048,
+    "gammas": [
+      2.1216426284177143
+    ],
+    "betas": [
+      1.873856889022998
+    ],
+    "assignment": [
+      0,
+      1,
+      0
+    ],
+    "training": {
+      "shots_train": 128,
+      "avg_k": 1,
+      "seed_trans": 1234,
+      "seed_base": 42,
+      "optimization_level": 1,
+      "sim_method": "matrix_product_state",
+      "batch_evaluations": true
+    },
+    "optimizer": {
+      "iters": 6,
+      "lr": 0.08,
+      "beta1": 0.9,
+      "beta2": 0.999,
+      "eps": 1e-08,
+      "fd_eps0": 0.12,
+      "seed": 42,
+      "spsa_alpha": 0.602,
+      "spsa_gamma": 0.101,
+      "spsa_A": 0.0,
+      "eval_at_each_iter": true
+    },
+    "multistart": {
+      "num_random_starts": 2,
+      "warm_start_perturbations": 1,
+      "warm_start_sigma": 0.1,
+      "add_plain_warm_start": true,
+      "keep_top_k_per_depth": 3,
+      "select_by_exact_when_available": false,
+      "parallel_restarts": 1
+    },
+    "p_max": 1,
+    "candidate_shots": 512,
+    "compute_exact_if_small": false,
+    "decoded_holdout_distribution": {
+      "110": 0.216796875,
+      "010": 0.0634765625,
+      "001": 0.10693359375,
+      "101": 0.0166015625,
+      "111": 0.09521484375,
+      "011": 0.32666015625,
+      "100": 0.173828125,
+      "000": 0.00048828125
+    }
+  },
+  {
+    "case": "n04_sparse",
+    "mode": "monolithic_qaoa",
+    "seed": 7,
+    "holdout_seed": 100007,
+    "selected_best_cost": -1.45,
+    "holdout_best_cost": -1.45,
+    "reference_cost": -1.45,
+    "holdout_mean_cost": -0.675390625,
+    "holdout_optimal_probability": 0.3837890625,
+    "holdout_shots": 2048,
+    "gammas": [
+      2.41398229295749
+    ],
+    "betas": [
+      2.7632222091000904
+    ],
+    "assignment": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "training": {
+      "shots_train": 128,
+      "avg_k": 1,
+      "seed_trans": 1234,
+      "seed_base": 7,
+      "optimization_level": 1,
+      "sim_method": "matrix_product_state",
+      "batch_evaluations": true
+    },
+    "optimizer": {
+      "iters": 6,
+      "lr": 0.08,
+      "beta1": 0.9,
+      "beta2": 0.999,
+      "eps": 1e-08,
+      "fd_eps0": 0.12,
+      "seed": 7,
+      "spsa_alpha": 0.602,
+      "spsa_gamma": 0.101,
+      "spsa_A": 0.0,
+      "eval_at_each_iter": true
+    },
+    "multistart": {
+      "num_random_starts": 2,
+      "warm_start_perturbations": 1,
+      "warm_start_sigma": 0.1,
+      "add_plain_warm_start": true,
+      "keep_top_k_per_depth": 3,
+      "select_by_exact_when_available": false,
+      "parallel_restarts": 1
+    },
+    "p_max": 1,
+    "candidate_shots": 512,
+    "compute_exact_if_small": false,
+    "decoded_holdout_distribution": {
+      "1011": 0.01318359375,
+      "0011": 0.0068359375,
+      "0101": 0.0888671875,
+      "0100": 0.05078125,
+      "0000": 0.005859375,
+      "1000": 0.08935546875,
+      "1111": 0.1279296875,
+      "1100": 0.3837890625,
+      "1110": 0.05322265625,
+      "1101": 0.04638671875,
+      "0110": 0.04150390625,
+      "0001": 0.03369140625,
+      "0010": 0.01513671875,
+      "1001": 0.00634765625,
+      "1010": 0.0185546875,
+      "0111": 0.0185546875
+    }
+  },
+  {
+    "case": "n04_sparse",
+    "mode": "telegate_explicit_qaoa",
+    "seed": 7,
+    "holdout_seed": 100007,
+    "selected_best_cost": -1.45,
+    "holdout_best_cost": -1.45,
+    "reference_cost": -1.45,
+    "holdout_mean_cost": -0.6353515624999999,
+    "holdout_optimal_probability": 0.35302734375,
+    "holdout_shots": 2048,
+    "gammas": [
+      2.420850606673371
+    ],
+    "betas": [
+      2.778468031614172
+    ],
+    "assignment": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "training": {
+      "shots_train": 128,
+      "avg_k": 1,
+      "seed_trans": 1234,
+      "seed_base": 7,
+      "optimization_level": 1,
+      "sim_method": "matrix_product_state",
+      "batch_evaluations": true
+    },
+    "optimizer": {
+      "iters": 6,
+      "lr": 0.08,
+      "beta1": 0.9,
+      "beta2": 0.999,
+      "eps": 1e-08,
+      "fd_eps0": 0.12,
+      "seed": 7,
+      "spsa_alpha": 0.602,
+      "spsa_gamma": 0.101,
+      "spsa_A": 0.0,
+      "eval_at_each_iter": true
+    },
+    "multistart": {
+      "num_random_starts": 2,
+      "warm_start_perturbations": 1,
+      "warm_start_sigma": 0.1,
+      "add_plain_warm_start": true,
+      "keep_top_k_per_depth": 3,
+      "select_by_exact_when_available": false,
+      "parallel_restarts": 1
+    },
+    "p_max": 1,
+    "candidate_shots": 512,
+    "compute_exact_if_small": false,
+    "decoded_holdout_distribution": {
+      "1111": 0.13623046875,
+      "1101": 0.04638671875,
+      "1100": 0.35302734375,
+      "1011": 0.01220703125,
+      "0111": 0.01953125,
+      "1110": 0.06494140625,
+      "1000": 0.0810546875,
+      "0101": 0.08984375,
+      "0110": 0.04052734375,
+      "0010": 0.01513671875,
+      "0100": 0.05517578125,
+      "0001": 0.03515625,
+      "1001": 0.01318359375,
+      "0011": 0.00830078125,
+      "0000": 0.00830078125,
+      "1010": 0.02099609375
+    }
+  },
+  {
+    "case": "n04_sparse",
+    "mode": "monolithic_qaoa",
+    "seed": 19,
+    "holdout_seed": 100019,
+    "selected_best_cost": -1.45,
+    "holdout_best_cost": -1.45,
+    "reference_cost": -1.45,
+    "holdout_mean_cost": -0.8308105468749999,
+    "holdout_optimal_probability": 0.39404296875,
+    "holdout_shots": 2048,
+    "gammas": [
+      1.5820068958275586
+    ],
+    "betas": [
+      2.719440068674352
+    ],
+    "assignment": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "training": {
+      "shots_train": 128,
+      "avg_k": 1,
+      "seed_trans": 1234,
+      "seed_base": 19,
+      "optimization_level": 1,
+      "sim_method": "matrix_product_state",
+      "batch_evaluations": true
+    },
+    "optimizer": {
+      "iters": 6,
+      "lr": 0.08,
+      "beta1": 0.9,
+      "beta2": 0.999,
+      "eps": 1e-08,
+      "fd_eps0": 0.12,
+      "seed": 19,
+      "spsa_alpha": 0.602,
+      "spsa_gamma": 0.101,
+      "spsa_A": 0.0,
+      "eval_at_each_iter": true
+    },
+    "multistart": {
+      "num_random_starts": 2,
+      "warm_start_perturbations": 1,
+      "warm_start_sigma": 0.1,
+      "add_plain_warm_start": true,
+      "keep_top_k_per_depth": 3,
+      "select_by_exact_when_available": false,
+      "parallel_restarts": 1
+    },
+    "p_max": 1,
+    "candidate_shots": 512,
+    "compute_exact_if_small": false,
+    "decoded_holdout_distribution": {
+      "1011": 0.001953125,
+      "0111": 0.005859375,
+      "1101": 0.10498046875,
+      "1100": 0.39404296875,
+      "1110": 0.10205078125,
+      "0101": 0.103515625,
+      "0110": 0.03955078125,
+      "0001": 0.041015625,
+      "0011": 0.00146484375,
+      "0010": 0.02197265625,
+      "0100": 0.02880859375,
+      "0000": 0.02392578125,
+      "1111": 0.02587890625,
+      "1000": 0.0546875,
+      "1001": 0.01123046875,
+      "1010": 0.0390625
+    }
+  },
+  {
+    "case": "n04_sparse",
+    "mode": "telegate_explicit_qaoa",
+    "seed": 19,
+    "holdout_seed": 100019,
+    "selected_best_cost": -1.45,
+    "holdout_best_cost": -1.45,
+    "reference_cost": -1.45,
+    "holdout_mean_cost": -0.8715332031249999,
+    "holdout_optimal_probability": 0.42626953125,
+    "holdout_shots": 2048,
+    "gammas": [
+      1.654079605169977
+    ],
+    "betas": [
+      2.7189560758946882
+    ],
+    "assignment": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "training": {
+      "shots_train": 128,
+      "avg_k": 1,
+      "seed_trans": 1234,
+      "seed_base": 19,
+      "optimization_level": 1,
+      "sim_method": "matrix_product_state",
+      "batch_evaluations": true
+    },
+    "optimizer": {
+      "iters": 6,
+      "lr": 0.08,
+      "beta1": 0.9,
+      "beta2": 0.999,
+      "eps": 1e-08,
+      "fd_eps0": 0.12,
+      "seed": 19,
+      "spsa_alpha": 0.602,
+      "spsa_gamma": 0.101,
+      "spsa_A": 0.0,
+      "eval_at_each_iter": true
+    },
+    "multistart": {
+      "num_random_starts": 2,
+      "warm_start_perturbations": 1,
+      "warm_start_sigma": 0.1,
+      "add_plain_warm_start": true,
+      "keep_top_k_per_depth": 3,
+      "select_by_exact_when_available": false,
+      "parallel_restarts": 1
+    },
+    "p_max": 1,
+    "candidate_shots": 512,
+    "compute_exact_if_small": false,
+    "decoded_holdout_distribution": {
+      "0101": 0.1005859375,
+      "1100": 0.42626953125,
+      "1000": 0.05126953125,
+      "1101": 0.08984375,
+      "1111": 0.02587890625,
+      "1110": 0.11279296875,
+      "0001": 0.0390625,
+      "0110": 0.029296875,
+      "0100": 0.02734375,
+      "1010": 0.0380859375,
+      "1001": 0.01220703125,
+      "0000": 0.01904296875,
+      "0010": 0.0185546875,
+      "0111": 0.0068359375,
+      "1011": 0.00146484375,
+      "0011": 0.00146484375
+    }
+  },
+  {
+    "case": "n04_sparse",
+    "mode": "monolithic_qaoa",
+    "seed": 42,
+    "holdout_seed": 100042,
+    "selected_best_cost": -1.45,
+    "holdout_best_cost": -1.45,
+    "reference_cost": -1.45,
+    "holdout_mean_cost": -0.7013671874999999,
+    "holdout_optimal_probability": 0.39013671875,
+    "holdout_shots": 2048,
+    "gammas": [
+      2.2418366172986417
+    ],
+    "betas": [
+      2.0106915542426576
+    ],
+    "assignment": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "training": {
+      "shots_train": 128,
+      "avg_k": 1,
+      "seed_trans": 1234,
+      "seed_base": 42,
+      "optimization_level": 1,
+      "sim_method": "matrix_product_state",
+      "batch_evaluations": true
+    },
+    "optimizer": {
+      "iters": 6,
+      "lr": 0.08,
+      "beta1": 0.9,
+      "beta2": 0.999,
+      "eps": 1e-08,
+      "fd_eps0": 0.12,
+      "seed": 42,
+      "spsa_alpha": 0.602,
+      "spsa_gamma": 0.101,
+      "spsa_A": 0.0,
+      "eval_at_each_iter": true
+    },
+    "multistart": {
+      "num_random_starts": 2,
+      "warm_start_perturbations": 1,
+      "warm_start_sigma": 0.1,
+      "add_plain_warm_start": true,
+      "keep_top_k_per_depth": 3,
+      "select_by_exact_when_available": false,
+      "parallel_restarts": 1
+    },
+    "p_max": 1,
+    "candidate_shots": 512,
+    "compute_exact_if_small": false,
+    "decoded_holdout_distribution": {
+      "0111": 0.00244140625,
+      "0011": 0.00146484375,
+      "0100": 0.109375,
+      "0000": 0.00537109375,
+      "1101": 0.07568359375,
+      "1100": 0.39013671875,
+      "1110": 0.0380859375,
+      "1111": 0.1474609375,
+      "1000": 0.076171875,
+      "0101": 0.0478515625,
+      "1011": 0.0185546875,
+      "0001": 0.01025390625,
+      "0110": 0.03271484375,
+      "0010": 0.0107421875,
+      "1001": 0.0166015625,
+      "1010": 0.01708984375
+    }
+  },
+  {
+    "case": "n04_sparse",
+    "mode": "telegate_explicit_qaoa",
+    "seed": 42,
+    "holdout_seed": 100042,
+    "selected_best_cost": -1.45,
+    "holdout_best_cost": -1.45,
+    "reference_cost": -1.45,
+    "holdout_mean_cost": -0.781591796875,
+    "holdout_optimal_probability": 0.46923828125,
+    "holdout_shots": 2048,
+    "gammas": [
+      2.225365241557775
+    ],
+    "betas": [
+      2.0723531309059045
+    ],
+    "assignment": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "training": {
+      "shots_train": 128,
+      "avg_k": 1,
+      "seed_trans": 1234,
+      "seed_base": 42,
+      "optimization_level": 1,
+      "sim_method": "matrix_product_state",
+      "batch_evaluations": true
+    },
+    "optimizer": {
+      "iters": 6,
+      "lr": 0.08,
+      "beta1": 0.9,
+      "beta2": 0.999,
+      "eps": 1e-08,
+      "fd_eps0": 0.12,
+      "seed": 42,
+      "spsa_alpha": 0.602,
+      "spsa_gamma": 0.101,
+      "spsa_A": 0.0,
+      "eval_at_each_iter": true
+    },
+    "multistart": {
+      "num_random_starts": 2,
+      "warm_start_perturbations": 1,
+      "warm_start_sigma": 0.1,
+      "add_plain_warm_start": true,
+      "keep_top_k_per_depth": 3,
+      "select_by_exact_when_available": false,
+      "parallel_restarts": 1
+    },
+    "p_max": 1,
+    "candidate_shots": 512,
+    "compute_exact_if_small": false,
+    "decoded_holdout_distribution": {
+      "1100": 0.46923828125,
+      "1110": 0.025390625,
+      "0100": 0.1044921875,
+      "0101": 0.0546875,
+      "0010": 0.0048828125,
+      "1000": 0.05810546875,
+      "1111": 0.16357421875,
+      "1101": 0.05224609375,
+      "0110": 0.02685546875,
+      "1001": 0.00830078125,
+      "0001": 0.01318359375,
+      "1011": 0.00732421875,
+      "1010": 0.009765625,
+      "0111": 0.001953125
+    }
+  },
+  {
+    "case": "n05_dense",
+    "mode": "monolithic_qaoa",
+    "seed": 7,
+    "holdout_seed": 100007,
+    "selected_best_cost": -4.75,
+    "holdout_best_cost": -4.75,
+    "reference_cost": -4.75,
+    "holdout_mean_cost": -1.695263671875,
+    "holdout_optimal_probability": 0.0390625,
+    "holdout_shots": 2048,
+    "gammas": [
+      2.7060046499455783
+    ],
+    "betas": [
+      3.066775942761863
+    ],
+    "assignment": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "training": {
+      "shots_train": 128,
+      "avg_k": 1,
+      "seed_trans": 1234,
+      "seed_base": 7,
+      "optimization_level": 1,
+      "sim_method": "matrix_product_state",
+      "batch_evaluations": true
+    },
+    "optimizer": {
+      "iters": 6,
+      "lr": 0.08,
+      "beta1": 0.9,
+      "beta2": 0.999,
+      "eps": 1e-08,
+      "fd_eps0": 0.12,
+      "seed": 7,
+      "spsa_alpha": 0.602,
+      "spsa_gamma": 0.101,
+      "spsa_A": 0.0,
+      "eval_at_each_iter": true
+    },
+    "multistart": {
+      "num_random_starts": 2,
+      "warm_start_perturbations": 1,
+      "warm_start_sigma": 0.1,
+      "add_plain_warm_start": true,
+      "keep_top_k_per_depth": 3,
+      "select_by_exact_when_available": false,
+      "parallel_restarts": 1
+    },
+    "p_max": 1,
+    "candidate_shots": 512,
+    "compute_exact_if_small": false,
+    "decoded_holdout_distribution": {
+      "10111": 0.0302734375,
+      "10100": 0.0244140625,
+      "10001": 0.033203125,
+      "10010": 0.029296875,
+      "01011": 0.03564453125,
+      "01111": 0.0166015625,
+      "00001": 0.03369140625,
+      "01000": 0.02783203125,
+      "01001": 0.0263671875,
+      "10101": 0.03369140625,
+      "00111": 0.0302734375,
+      "01100": 0.021484375,
+      "10000": 0.033203125,
+      "11010": 0.03125,
+      "11110": 0.0244140625,
+      "01101": 0.0439453125,
+      "10110": 0.02685546875,
+      "11100": 0.0390625,
+      "11000": 0.0322265625,
+      "11011": 0.03369140625,
+      "11111": 0.0390625,
+      "00011": 0.02490234375,
+      "00110": 0.0302734375,
+      "00010": 0.03515625,
+      "01110": 0.04345703125,
+      "11001": 0.02685546875,
+      "01010": 0.0380859375,
+      "11101": 0.02392578125,
+      "00101": 0.02734375,
+      "10011": 0.04296875,
+      "00000": 0.0263671875,
+      "00100": 0.0341796875
+    }
+  },
+  {
+    "case": "n05_dense",
+    "mode": "telegate_explicit_qaoa",
+    "seed": 7,
+    "holdout_seed": 100007,
+    "selected_best_cost": -4.75,
+    "holdout_best_cost": -4.75,
+    "reference_cost": -4.75,
+    "holdout_mean_cost": -1.7105468750000001,
+    "holdout_optimal_probability": 0.05126953125,
+    "holdout_shots": 2048,
+    "gammas": [
+      2.6321771407862418
+    ],
+    "betas": [
+      2.9929484336025265
+    ],
+    "assignment": [
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "training": {
+      "shots_train": 128,
+      "avg_k": 1,
+      "seed_trans": 1234,
+      "seed_base": 7,
+      "optimization_level": 1,
+      "sim_method": "matrix_product_state",
+      "batch_evaluations": true
+    },
+    "optimizer": {
+      "iters": 6,
+      "lr": 0.08,
+      "beta1": 0.9,
+      "beta2": 0.999,
+      "eps": 1e-08,
+      "fd_eps0": 0.12,
+      "seed": 7,
+      "spsa_alpha": 0.602,
+      "spsa_gamma": 0.101,
+      "spsa_A": 0.0,
+      "eval_at_each_iter": true
+    },
+    "multistart": {
+      "num_random_starts": 2,
+      "warm_start_perturbations": 1,
+      "warm_start_sigma": 0.1,
+      "add_plain_warm_start": true,
+      "keep_top_k_per_depth": 3,
+      "select_by_exact_when_available": false,
+      "parallel_restarts": 1
+    },
+    "p_max": 1,
+    "candidate_shots": 512,
+    "compute_exact_if_small": false,
+    "decoded_holdout_distribution": {
+      "00110": 0.03369140625,
+      "10011": 0.0546875,
+      "10111": 0.029296875,
+      "01101": 0.04443359375,
+      "00101": 0.0205078125,
+      "00100": 0.0322265625,
+      "00001": 0.0400390625,
+      "01011": 0.0263671875,
+      "11001": 0.02197265625,
+      "01001": 0.03076171875,
+      "11011": 0.03955078125,
+      "10010": 0.02978515625,
+      "10100": 0.03466796875,
+      "11110": 0.013671875,
+      "11000": 0.02783203125,
+      "00111": 0.04150390625,
+      "01100": 0.02001953125,
+      "10000": 0.041015625,
+      "01110": 0.04150390625,
+      "11101": 0.02099609375,
+      "10001": 0.021484375,
+      "00010": 0.0263671875,
+      "01010": 0.04248046875,
+      "11100": 0.060546875,
+      "11010": 0.02587890625,
+      "10110": 0.02587890625,
+      "11111": 0.05126953125,
+      "10101": 0.0185546875,
+      "01000": 0.0263671875,
+      "01111": 0.01806640625,
+      "00011": 0.0146484375,
+      "00000": 0.02392578125
+    }
+  },
+  {
+    "case": "n05_dense",
+    "mode": "monolithic_qaoa",
+    "seed": 19,
+    "holdout_seed": 100019,
+    "selected_best_cost": -4.75,
+    "holdout_best_cost": -4.75,
+    "reference_cost": -4.75,
+    "holdout_mean_cost": -2.0509765625000003,
+    "holdout_optimal_probability": 0.068359375,
+    "holdout_shots": 2048,
+    "gammas": [
+      1.5129663637332846
+    ],
+    "betas": [
+      2.75333572756819
+    ],
+    "assignment": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "training": {
+      "shots_train": 128,
+      "avg_k": 1,
+      "seed_trans": 1234,
+      "seed_base": 19,
+      "optimization_level": 1,
+      "sim_method": "matrix_product_state",
+      "batch_evaluations": true
+    },
+    "optimizer": {
+      "iters": 6,
+      "lr": 0.08,
+      "beta1": 0.9,
+      "beta2": 0.999,
+      "eps": 1e-08,
+      "fd_eps0": 0.12,
+      "seed": 19,
+      "spsa_alpha": 0.602,
+      "spsa_gamma": 0.101,
+      "spsa_A": 0.0,
+      "eval_at_each_iter": true
+    },
+    "multistart": {
+      "num_random_starts": 2,
+      "warm_start_perturbations": 1,
+      "warm_start_sigma": 0.1,
+      "add_plain_warm_start": true,
+      "keep_top_k_per_depth": 3,
+      "select_by_exact_when_available": false,
+      "parallel_restarts": 1
+    },
+    "p_max": 1,
+    "candidate_shots": 512,
+    "compute_exact_if_small": false,
+    "decoded_holdout_distribution": {
+      "00011": 0.0029296875,
+      "01001": 0.0810546875,
+      "00111": 0.0732421875,
+      "10101": 0.00244140625,
+      "10000": 0.0166015625,
+      "01100": 0.0126953125,
+      "11111": 0.068359375,
+      "11011": 0.07373046875,
+      "00001": 0.00732421875,
+      "01010": 0.06787109375,
+      "01111": 0.03173828125,
+      "11010": 0.078125,
+      "11101": 0.0009765625,
+      "00101": 0.05517578125,
+      "10111": 0.09375,
+      "01101": 0.01318359375,
+      "01110": 0.03857421875,
+      "10001": 0.01025390625,
+      "10100": 0.0517578125,
+      "10010": 0.005859375,
+      "11001": 0.0576171875,
+      "00000": 0.0009765625,
+      "10011": 0.0078125,
+      "11000": 0.00732421875,
+      "11100": 0.00830078125,
+      "11110": 0.01513671875,
+      "00010": 0.009765625,
+      "00110": 0.048828125,
+      "00100": 0.03271484375,
+      "01000": 0.01953125,
+      "10110": 0.00634765625
+    }
+  },
+  {
+    "case": "n05_dense",
+    "mode": "telegate_explicit_qaoa",
+    "seed": 19,
+    "holdout_seed": 100019,
+    "selected_best_cost": -4.75,
+    "holdout_best_cost": -4.75,
+    "reference_cost": -4.75,
+    "holdout_mean_cost": -2.0658691406250003,
+    "holdout_optimal_probability": 0.05859375,
+    "holdout_shots": 2048,
+    "gammas": [
+      1.5248166317573908
+    ],
+    "betas": [
+      2.7714845123997907
+    ],
+    "assignment": [
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "training": {
+      "shots_train": 128,
+      "avg_k": 1,
+      "seed_trans": 1234,
+      "seed_base": 19,
+      "optimization_level": 1,
+      "sim_method": "matrix_product_state",
+      "batch_evaluations": true
+    },
+    "optimizer": {
+      "iters": 6,
+      "lr": 0.08,
+      "beta1": 0.9,
+      "beta2": 0.999,
+      "eps": 1e-08,
+      "fd_eps0": 0.12,
+      "seed": 19,
+      "spsa_alpha": 0.602,
+      "spsa_gamma": 0.101,
+      "spsa_A": 0.0,
+      "eval_at_each_iter": true
+    },
+    "multistart": {
+      "num_random_starts": 2,
+      "warm_start_perturbations": 1,
+      "warm_start_sigma": 0.1,
+      "add_plain_warm_start": true,
+      "keep_top_k_per_depth": 3,
+      "select_by_exact_when_available": false,
+      "parallel_restarts": 1
+    },
+    "p_max": 1,
+    "candidate_shots": 512,
+    "compute_exact_if_small": false,
+    "decoded_holdout_distribution": {
+      "11010": 0.07080078125,
+      "11001": 0.0517578125,
+      "11000": 0.009765625,
+      "00110": 0.046875,
+      "10111": 0.09521484375,
+      "01111": 0.03076171875,
+      "11111": 0.05859375,
+      "00010": 0.0087890625,
+      "01010": 0.052734375,
+      "00101": 0.0615234375,
+      "01001": 0.07275390625,
+      "00100": 0.025390625,
+      "11011": 0.08349609375,
+      "10100": 0.0576171875,
+      "11110": 0.01806640625,
+      "00011": 0.00244140625,
+      "01110": 0.0615234375,
+      "01100": 0.0126953125,
+      "00111": 0.06689453125,
+      "10110": 0.00390625,
+      "01101": 0.01171875,
+      "10000": 0.01171875,
+      "10010": 0.00927734375,
+      "10001": 0.015625,
+      "01000": 0.0244140625,
+      "10011": 0.005859375,
+      "11100": 0.013671875,
+      "10101": 0.0048828125,
+      "00001": 0.00634765625,
+      "01011": 0.001953125,
+      "00000": 0.001953125,
+      "11101": 0.0009765625
+    }
+  },
+  {
+    "case": "n05_dense",
+    "mode": "monolithic_qaoa",
+    "seed": 42,
+    "holdout_seed": 100042,
+    "selected_best_cost": -4.75,
+    "holdout_best_cost": -4.75,
+    "reference_cost": -4.75,
+    "holdout_mean_cost": -1.716748046875,
+    "holdout_optimal_probability": 0.05322265625,
+    "holdout_shots": 2048,
+    "gammas": [
+      2.407206801564622
+    ],
+    "betas": [
+      1.7622598979689297
+    ],
+    "assignment": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "training": {
+      "shots_train": 128,
+      "avg_k": 1,
+      "seed_trans": 1234,
+      "seed_base": 42,
+      "optimization_level": 1,
+      "sim_method": "matrix_product_state",
+      "batch_evaluations": true
+    },
+    "optimizer": {
+      "iters": 6,
+      "lr": 0.08,
+      "beta1": 0.9,
+      "beta2": 0.999,
+      "eps": 1e-08,
+      "fd_eps0": 0.12,
+      "seed": 42,
+      "spsa_alpha": 0.602,
+      "spsa_gamma": 0.101,
+      "spsa_A": 0.0,
+      "eval_at_each_iter": true
+    },
+    "multistart": {
+      "num_random_starts": 2,
+      "warm_start_perturbations": 1,
+      "warm_start_sigma": 0.1,
+      "add_plain_warm_start": true,
+      "keep_top_k_per_depth": 3,
+      "select_by_exact_when_available": false,
+      "parallel_restarts": 1
+    },
+    "p_max": 1,
+    "candidate_shots": 512,
+    "compute_exact_if_small": false,
+    "decoded_holdout_distribution": {
+      "01111": 0.00830078125,
+      "10101": 0.0048828125,
+      "01000": 0.0166015625,
+      "10010": 0.0107421875,
+      "10100": 0.03759765625,
+      "10001": 0.02294921875,
+      "01011": 0.02587890625,
+      "01010": 0.046875,
+      "11110": 0.02294921875,
+      "01101": 0.05126953125,
+      "11001": 0.0224609375,
+      "00011": 0.00927734375,
+      "00001": 0.04345703125,
+      "11111": 0.05322265625,
+      "11011": 0.02099609375,
+      "11100": 0.04931640625,
+      "11000": 0.0419921875,
+      "11101": 0.021484375,
+      "00101": 0.04638671875,
+      "10111": 0.02734375,
+      "11010": 0.0234375,
+      "10011": 0.06591796875,
+      "00000": 0.01806640625,
+      "01001": 0.02685546875,
+      "00111": 0.0380859375,
+      "01110": 0.0390625,
+      "10110": 0.02978515625,
+      "00100": 0.02392578125,
+      "10000": 0.0390625,
+      "01100": 0.02294921875,
+      "00110": 0.02734375,
+      "00010": 0.0615234375
+    }
+  },
+  {
+    "case": "n05_dense",
+    "mode": "telegate_explicit_qaoa",
+    "seed": 42,
+    "holdout_seed": 100042,
+    "selected_best_cost": -4.75,
+    "holdout_best_cost": -4.75,
+    "reference_cost": -4.75,
+    "holdout_mean_cost": -1.7382812500000002,
+    "holdout_optimal_probability": 0.0419921875,
+    "holdout_shots": 2048,
+    "gammas": [
+      2.3299057494237414
+    ],
+    "betas": [
+      1.6375228762198357
+    ],
+    "assignment": [
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "training": {
+      "shots_train": 128,
+      "avg_k": 1,
+      "seed_trans": 1234,
+      "seed_base": 42,
+      "optimization_level": 1,
+      "sim_method": "matrix_product_state",
+      "batch_evaluations": true
+    },
+    "optimizer": {
+      "iters": 6,
+      "lr": 0.08,
+      "beta1": 0.9,
+      "beta2": 0.999,
+      "eps": 1e-08,
+      "fd_eps0": 0.12,
+      "seed": 42,
+      "spsa_alpha": 0.602,
+      "spsa_gamma": 0.101,
+      "spsa_A": 0.0,
+      "eval_at_each_iter": true
+    },
+    "multistart": {
+      "num_random_starts": 2,
+      "warm_start_perturbations": 1,
+      "warm_start_sigma": 0.1,
+      "add_plain_warm_start": true,
+      "keep_top_k_per_depth": 3,
+      "select_by_exact_when_available": false,
+      "parallel_restarts": 1
+    },
+    "p_max": 1,
+    "candidate_shots": 512,
+    "compute_exact_if_small": false,
+    "decoded_holdout_distribution": {
+      "01110": 0.03515625,
+      "00111": 0.03173828125,
+      "00110": 0.03076171875,
+      "01100": 0.03173828125,
+      "10000": 0.03759765625,
+      "11100": 0.03662109375,
+      "10110": 0.03369140625,
+      "11101": 0.02978515625,
+      "11000": 0.0361328125,
+      "01101": 0.03759765625,
+      "11110": 0.03173828125,
+      "00010": 0.03955078125,
+      "10011": 0.0517578125,
+      "10111": 0.0283203125,
+      "00101": 0.02978515625,
+      "00100": 0.029296875,
+      "01011": 0.02392578125,
+      "11001": 0.02734375,
+      "01001": 0.0302734375,
+      "11011": 0.0302734375,
+      "10010": 0.025390625,
+      "10100": 0.033203125,
+      "00011": 0.02099609375,
+      "00001": 0.03466796875,
+      "10001": 0.0283203125,
+      "01010": 0.0341796875,
+      "01000": 0.02197265625,
+      "11010": 0.0263671875,
+      "11111": 0.0419921875,
+      "10101": 0.01806640625,
+      "01111": 0.0302734375,
+      "00000": 0.021484375
+    }
+  }
+]
